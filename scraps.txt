@@ -1,0 +1,107 @@
+*<div class="information" id="info">
+			<article class="cards">
+				<header>
+					<h2>First Last</h2>
+				</header>
+				<img src="ballons.png" alt="Hot air balloons">
+				<div class="content">
+					<p> The idea of reaching the North Pole by means of balloons appears to have been entertained many years
+						ago. </p>
+				</div>
+			</article>
+
+			<article class="information">
+				<header>
+					<h2>A short heading</h2>
+				</header>
+				<img src="ballons.png" alt="Hot air balloons">
+				<div class="content">
+					<p>Short content.</p>
+				</div>
+				<!-- <footer>I have a footer!</footer> -->
+			</article>
+	
+			<article class="information">
+				<header>
+					<h2>A longer heading in this card</h2>
+				</header>
+				<img src="ballons.png" alt="Hot air balloons">
+				<div class="content">
+					<p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
+						suggestion for reaching the North Pole by an aerostat.</p>
+				</div>
+
+			</article>
+			<article class="information">
+				<header>
+					<h2>A short heading</h2>
+				</header>
+				<img src="ballons.png" alt="Hot air balloons">
+				<div class="content">
+					<p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
+						years ago. </p>
+				</div>
+			</article> -->
+		</div>
+
+		<div class="cards">
+    <article class="card">
+        <header>
+            <h2>A short heading</h2>
+        </header>    
+        <img src="balloons.jpg" alt="Hot air balloons">
+        <div class="content">
+            <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many years ago. </p>
+        </div>
+            
+    </article>
+            
+     <article class="card">
+        <header>
+            <h2>A short heading</h2>
+        </header>    
+        <img src="balloons2.jpg" alt="Hot air balloons">
+        <div class="content">
+            <p>Short content.</p>
+        </div>
+        <footer>I have a footer!</footer>
+    </article>
+            
+    <article class="card">
+        <header>
+            <h2>A longer heading in this card</h2>
+        </header>
+        <img src="balloons.jpg" alt="Hot air balloons">
+        <div class="content">
+            <p>In a curious work, published in Paris in 1863 by Delaville Dedreux, there is a
+                suggestion for reaching the North Pole by an aerostat.</p>
+        </div>
+        <footer>I have a footer!</footer>
+    </article>
+    <article class="card">
+        <header>
+            <h2>A short heading</h2>
+        </header>
+        <img src="balloons2.jpg" alt="Hot air balloons">
+        <div class="content">
+            <p> The idea of reaching the North Pole by means of balloons appears to have been entertained many
+                years ago. </p>
+        </div>
+
+    </article>
+</div>
+
+			<div class="navLink">
+				<div id="home">
+					<p><a href="/">Home</a></p>
+				</div>
+				<div id="interest">
+					<p><a href="/interest.html">Interest</a></p>
+				</div>
+				<div id="expertise">
+					<p><a href="/expertise.html">Expertise</a></p>
+				</div>
+				<div id="contact">
+					<p><a href="/contact.html">Contact</a></p>
+				</div>
+			</div>

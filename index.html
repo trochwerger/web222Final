@@ -1,29 +1,27 @@
 <!doctype html>
 
 <html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Interest - Rochwerger</title>
-	<link rel="stylesheet" href="/styles.css">
-	<script src="/script.js"></script>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-	<link rel="stylesheet"
-		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-
-<body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Home - Rochwerger</title>
+		<link rel="stylesheet" href="/styles.css">
+		<script src="/script.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+		<link rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
 	<header id="nav">
 		<div id="logo">
 			<p><a href="/">TOMAS ROCHWERGER</a></p>
 		</div>
 		<div class="navButtons">
 			<div class="navButton" id="home">
-				<p><a href="/">Home</a></p>
+			<p><a href="/">Home</a></p>
 			</div>
 			<div class="navButton" id="interest">
 				<p><a href="/interest.html">Interest</a></p>
@@ -31,62 +29,74 @@
 			<div class="navButton" id="expertise">
 				<p><a href="/expertise.html">Expertise</a></p>
 			</div>
-			<div class="navButton" id="contaact">
+			<div class="navButton" id="contact">
 				<p><a href="/contact.html">Contact</a></p>
 			</div>
 		</div>
 	</header>
 
-	
-	<main>
-		<div id="interestAside">
-			<div id="imgSidebar">
-				<div>
-					<img class="imageInterest" src="/images/basketball.webp">
-				</div>
-				<div>
-					<img class="imageInterest" src="/images/music.webp">
-				</div>
-				<div>
-					<img class="imageInterest" src="/images/tech.webp">
-				</div>
-				<div>
-					<img class="imageInterest" src="/images/bmw.webp">
-				</div>
+		<div id="about">
+			<!-- <div id="aboutNav">
+				<a>Experience</a>
+				<a></a>
+			</div> -->
+			<div id="about-left">
+				<img src="/images/myPicture.jpg">
 			</div>
-			<div id="interest-section">
-				<div id="interest-heading">
-					<h1>Interest</h1>
-				</div>
-				<div>
-					<p>Some hobbies I have include
-					<ul>
-						<li>Basketball</li>
-						<li>Music -<br>Listening to music and playing guitar</li>
-						<li>Tech -<br>I enjoy learning about new technology, working at best buy exposes me to all the newest tech
-							products</li>
-						<li>Cars -<br>I'm a huge car nerd, I've always been a huge BMW guy but I also like Mercedes, Porshe and
-							Mclaren Cars</li>
-					</ul>
-					</p>
+			<div id="about-right">
+				<h2>About</p>
+				<h3>Seneca College Student</h3>
+				<h5>Program: Computer Programming and Analysis</h5>
+				<button id="skillsButton" class="aboutButton" onclick="showInfo(aboutSkills, aboutExperience)">Skills</button>
+				<button id="experienceButton"class="aboutButton" onclick="showInfo(aboutExperience, aboutSkills)">Experience</button>
+				<div id="aboutInfo">
+
+					<div id="aboutSkills">
+						<table>
+							<tr>
+								<ul>
+									<th><li>C</li></th>
+									<th><li>C++</li>
+									</th>
+								</ul>
+							</tr>
+							<tr>
+								<ul>
+									<th><li>SQL</li>
+									</th>
+									<th><li>Linux</li>
+									</th>
+								</ul>
+							</tr>
+							<tr>
+								<ul>
+									<th><li>Javascript</li>
+									</th>
+									<th><li>HTML</li>
+									</th>
+								</ul>
+							</tr>
+							<tr>
+								<ul>
+									<th><li>CSS</li>
+									</th>
+									<th><li>Networking</li>
+									</th>
+								</ul>
+							</tr>
+						</table>
+					</div>
+					<div id="aboutExperience">
+						<ul>
+							<li>Geek Squad - <br>In-home Technician<br>2021-Present</li>
+							<li>Burrito Boyz - <br>Line & Prep Cook<br>2020-2021</li>
+							<li>Web / Digital Design - <br> 2020 - Present
+							</li>
+						</ul>
 				</div>
 				
 			</div>
-			
-			
-			<div id="interest-videos">
-				<iframe src="https://www.youtube.com/embed/Kt0VH2iULrw" title="YouTube video player"
-					frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen></iframe>
-					<iframe height="315" src="https://www.youtube.com/embed/jwmS1gc9S5A" title="YouTube video player"
-						frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen></iframe>
-			</div>
+			<!-- <img src="/images/myPicture.jpg"> -->
 		</div>
-
-		
-	</main>
-	
-</body>
-
+	</body>
 </html>
