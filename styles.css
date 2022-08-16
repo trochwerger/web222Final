@@ -96,7 +96,11 @@ main {
 }
 
 /* Home */
-
+#honestyDec {
+	margin: 0 auto;
+	width: 70%;
+	color: #f5f5f7;
+}
 /* About */
 #about {
 	display: flex;
